@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPáginaWeb</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img src="Imagenes/LogoLR2-removebg-preview.png" alt="" class="Logo">
+        <h1>Lana del Rey</h1>
+    </header>
+    <nav class="Encabezado">
+        <a href="index.html" class="enc">INICIO</a>
+        <a href="Ver.html" class="enc">VER</a>
+        <a href="" class="enc">FECHAS</a>
+        <a href="" class="enc">TIENDA</a>
+        <a href="" class="enc">ACERCA DE</a>
+    </nav>
+    <div class="carousel">
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <img src="Imagenes/FOTO1.png" class="active" id="IMG">
+    <img src="Imagenes/FOTO2.png" id="IMG">
+    <img src="Imagenes/FOTO3.png" id="IMG">
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel img');
+
+    function changeSlide(direction) {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + direction + slides.length) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }
+  </script>
+  <h2>Lo más visto en nuestra tienda</h2>
+  <section>
+    <article>
+      <a href="" id="fotos"><img src="Imagenes/CD.jpeg" alt="" class="FOTO"></a>
+      <h3>Casetes</h3>
+    </article>
+    <article>
+      <a href="" id="fotos"><img src="Imagenes/Pines.jpeg" alt="" class="FOTO"></a>
+      <h3>Pines</h3>
+    </article>
+    <article>
+      <a href="" id="fotos"><img src="Imagenes/Llavero.jpeg" alt="" class="FOTO"></a>
+      <h3>Llaveros</h3>
+    </article>
+
+  </section>
+  <div class="contenedor">
+  <button id="Boton">Ver más</button>
+</div>
+<img src="Imagenes/Fondo.png" alt="" id="Cartel">
+
+<section class="Tarjeta">
+  <article id="invertida">
+    <figure>
+      <img src="Imagenes/Lana2025.jpeg" alt="" id="Lana">
+    </figure>
+    <p>"¡Bienvenidos al sitio "oficial" de la cantante, compositora, productora y poetiza, Lana del Rey! En nuestra página encontrarás tantos sus videos musicales, su tienda online, entrevistas y más. ¡Los invitamos a explorar el sitio web cuanto gusten! Esperemos que les guste, nos hemos esforzado mucho en hacerla. Si detectan algún error o tienen alguna sugerencia son bienvenidos a compartirlas!"</p>
+  </article>
+</section>
+<footer>
+  <nav class="footer">
+        <a href="index.html">INICIO</a> |
+        <a href="Ver.html">VER</a> |
+        <a href="">FECHAS</a> |
+        <a href="">TIENDA</a> |
+        <a href="">ACERCA DE</a>
+  </nav>
+  <nav>
+    <a href="">TÉRMINOS Y CONDICIONES</a> |
+    <a href="">POLITICAS DE PRIVACIDAD</a> |
+    <a href="">COOKIES</a>
+  </nav>
+  <article class="Iconos">
+    <p class="Seguir">Siguela en</p>
+    <a href=""><i class="fa-brands fa-youtube"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+    <a href=""><i class="fa-brands fa-spotify"></i></a>
+  </article>
+  <p id="derecho">© Lana Del Rey</p>
+</footer>
+</body>
+</html>
