@@ -1,0 +1,39 @@
+*{padding: 0%; margin: 0;box-sizing: border-box;}
+.Logo{width: 50px;}
+h1{display: inline-block; margin: 15px; color: rgb(33, 36, 61);}
+header{display: flex; justify-content: center;align-items: center; background-color: rgb(251, 233, 213); margin-bottom: 20px;;}
+.Encabezado{background-color: rgb(230, 159, 133); width: 80%; height: 60px; margin: auto; display: flex; justify-content: center;}
+.enc{padding: 10px; margin: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger; width: 200px;}
+.enc:hover{text-decoration: underline; color: rgb(255, 221, 185); transition: all 0.5s;}
+body{background-color: rgba(255, 245, 210, 0.327);}
+footer{background-color: rgb(235, 164, 138); padding: 30px;}
+nav{text-align: center; margin: 35px; margin-top: 10px;}
+a{padding: 40px; font-weight: 800; color: rgb(93, 61, 52); text-decoration: none; font-size: x-large;}
+a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
+.Seguir{color: rgb(111, 57, 57);}
+.Iconos{display: flex ; justify-content: center; align-items: center; height: 100px;}
+#derecho{color: rgb(253, 233, 211); padding: 5px; text-align: center;}
+section{ height: 300px; padding: 30px; margin: 20px;} 
+p{color: rgb(71, 37, 37); font-size: x-large; font-weight: 800;}
+article{display: flex; align-items: center;}
+button{background-color: rgb(125, 53, 45); width: 150px; border: none; border-radius: 10px; height: 40px; color: rgb(242, 240, 224); font-weight: 600;} 
+button:hover{background-color: rgb(182, 121, 84); color: rgb(81, 48, 41); transition: all 0.5s; transform: scale(1.2);}
+.centrar-boton{display: flex; justify-content: center; align-items: center; margin-top: 60px;}
+.pulsante{cursor: pointer; animation-name: pulso; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+@keyframes pulso{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+dialog{position:relative; align-items: center; justify-content: center; width: 60%; height: 300px; background-color: rgb(255, 218, 198); border-color: rgb(200, 147, 118); margin: auto; text-align: center; border-radius: 20px;}
+#close-button{background-color: rgb(255, 171, 138); width: 30px; height: 30px; border-radius: 100px; border: none; color: rgb(101, 57, 34); font-weight: 800; position: absolute; top: 10px; right: 10px; cursor: pointer;}
+.parrafo{margin-top: 60px;}
+.foto{width: 200px; height: 180px; animation-name: mover; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; margin-top: 20px;}
+@keyframes mover{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-20px);}
+    100%{transform: translateY(0px);}
+}
+dialog::backdrop {
+    background-color: rgba(243, 164, 127, 0.3);
+}

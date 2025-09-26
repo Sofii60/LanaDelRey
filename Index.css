@@ -19,7 +19,7 @@ h2{ padding: 15px; background-color: rgb(255, 240, 217); width: 300px; height: 8
 .FOTO:hover{filter: brightness(80%); transition: all 0.5s;}
 section{display: flex; justify-content: center;}
 h3{text-align: center; color: rgb(99, 56, 47); margin-bottom: 20px;}
-#Boton{background-color: rgb(232, 134, 98); border: none; padding: 10px; width: 160px; border-radius: 10px; color: rgb(94, 47, 23); font-size: large;height: 50px; }
+#Boton{background-color: rgb(232, 134, 98); border: none;  width: 160px; border-radius: 10px; color: rgb(94, 47, 23);height: 50px; }
 .contenedor{text-align: center;}
 #Boton:hover{background-color: rgb(99, 30, 30); color: antiquewhite; transition: all 0.5s;}
 #Cartel{width: 100%; height: 420px; margin-top: 20px; margin-bottom: 4px;}
@@ -32,7 +32,7 @@ h3{text-align: center; color: rgb(99, 56, 47); margin-bottom: 20px;}
 p{font-size:x-large; text-align: center; line-height: 40px; font-weight: 700; padding: 80px; color: rgb(231, 192, 135);}
 footer{background-color: rgb(235, 164, 138); padding: 30px;}
 nav{text-align: center; margin: 35px; margin-top: 10px;}
-a{padding: 40px; font-weight: 800; color: rgb(93, 61, 52); text-decoration: none; font-size: x-large;}
+a{padding: 40px; font-weight: 800; color: rgb(93, 61, 52); text-decoration: none; font-size: larger;}
 a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
 .Seguir{color: rgb(111, 57, 57);}
 .Iconos{display: flex ; justify-content: center; align-items: center; height: 100px;}

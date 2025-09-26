@@ -1,0 +1,30 @@
+*{padding: 0%; margin: 0;box-sizing: border-box;}
+.Logo{width: 50px;}
+h1{display: inline-block; margin: 15px; color: rgb(33, 36, 61);}
+header{display: flex; justify-content: center;align-items: center; background-color: rgb(251, 233, 213); margin-bottom: 20px;;}
+.Encabezado{background-color: rgb(230, 159, 133); width: 80%; height: 60px; margin: auto; display: flex; justify-content: center;}
+.enc{padding: 10px; margin: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger; width: 200px;}
+.enc:hover{text-decoration: underline; color: rgb(255, 221, 185); transition: all 0.5s;}
+.gif{width: 70%; height: 500px; border: 4px groove rgb(243, 229, 208); display: block; margin: auto; margin-top: 30px;}
+.CD{width: 300px; height: 300px; border: 8px solid rgb(226, 178, 145);}
+.Discos{display: flex; justify-content: center; align-items: center; gap: 50px; margin-top: 30px; margin-bottom: 30px;}
+h3{text-align: center; color: rgb(99, 56, 47); margin-bottom: 20px; margin-top: 20px; font-size: larger;} 
+p{font-size: x-large; text-align: center; line-height: 40px; font-weight: 700; padding: 10px; color: rgb(221, 202, 174);}
+body{background-color: rgba(255, 245, 210, 0.327);}
+.CD:hover{filter: brightness(80%); transition: all 0.5s;}
+.boton{background-color: rgb(229, 151, 123); border: none; padding: 10px; width: 160px; border-radius: 10px; color: rgb(94, 47, 23); font-size: large;height: 50px; display: block; margin: auto; margin-top: 20px; font-weight: 700; text-decoration: none; text-align: center; line-height: 30px;}
+.boton:hover{background-color: rgb(99, 30, 30); color: antiquewhite; transition: all 0.5s;}
+.Ropa{width: 300px; height: 300px; border: 8px solid rgb(226, 178, 145);}
+.Ropa:hover{filter: brightness(80%); transition: all 0.5s;}
+.prenda{display: flex; justify-content: center; align-items: center; gap: 50px; margin-top: 30px; margin-bottom: 30px;}
+.accesorios{display: flex; justify-content: center; align-items: center; gap: 50px; margin-top: 30px; margin-bottom: 30px;}
+.Acc{width: 300px; height: 300px; border: 8px solid rgb(226, 178, 145);}
+.Acc:hover{filter: brightness(80%); transition: all 0.5s;}
+footer{background-color: rgb(235, 164, 138); padding: 30px; margin-top: 90px;}
+nav{text-align: center; margin: 35px; margin-top: 10px;}
+a{padding: 40px; font-weight: 800; color: rgb(93, 61, 52); text-decoration: none; font-size: x-large;}
+a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
+.Seguir{color: rgb(111, 57, 57);}
+.Iconos{display: flex ; justify-content: center; align-items: center; height: 100px;}
+#derecho{color: rgb(253, 233, 211); padding: 5px;}
+

@@ -12,9 +12,9 @@ iframe{width: 400px; height: 250px; padding: 20px;}
 p{color: rgb(137, 78, 46); font-weight: 800; font-size: larger;}
 .Videos{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
 div{display: flex; flex-direction: column; align-items: center; margin-bottom: 25px;}
-.Tate{width: 280px; height: 200px;}
-.tarjeta{display: flex; justify-content: center; align-items: center; margin: auto; }
-#P{width: 300px; height: 200px; text-align: center;}
+.Tate{width: 260px; height: 190px; margin: 20px;}
+.tarjeta{display: flex; justify-content: center; align-items: center; margin: auto; background-color: rgb(217, 180, 161); width: 800px; margin-bottom: 20px;}
+.tarjeta:hover{transform: scale(1.1); transition: all 0.5s;}
 footer{background-color: rgb(235, 164, 138); padding: 30px;}
 nav{text-align: center; margin: 35px; margin-top: 10px;}
 a{padding: 40px; font-weight: 800; color: rgb(93, 61, 52); text-decoration: none; font-size: x-large;}
@@ -22,3 +22,4 @@ a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
 .Seguir{color: rgb(111, 57, 57);}
 .Iconos{display: flex ; justify-content: center; align-items: center; height: 100px;}
 #derecho{color: rgb(253, 233, 211); padding: 5px; text-align: center;}
+figure{margin-bottom: 20px;}
