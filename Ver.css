@@ -3,8 +3,8 @@
 h1{display: inline-block; margin: 15px; color: rgb(33, 36, 61);}
 header{display: flex; justify-content: center;align-items: center; background-color: rgb(251, 233, 213); margin-bottom: 20px;;}
 body{background-color: rgba(255, 245, 210, 0.327);}
-.Encabezado{background-color: rgb(230, 159, 133); width: 80%; height: 60px; margin: auto; display: flex; justify-content: center; margin-bottom: 15px;}
-.enc{padding: 10px; margin: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger; width: 200px;}
+.Encabezado{background-color: rgb(230, 159, 133); width: 80%; height: 60px; margin: auto; display: flex; justify-content: center;}
+.enc{padding: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger;}
 .enc:hover{text-decoration: underline; color: rgb(255, 221, 185); transition: all 0.5s;}
 h3{color: rgb(130, 103, 69); font-weight: 700; font-style: italic; background-color: rgb(252, 241, 226); padding: 5px; width: 200px; margin: auto; text-align: center; margin-bottom: 10px;}
 iframe{width: 400px; height: 250px; padding: 20px;}
@@ -23,3 +23,14 @@ a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
 .Iconos{display: flex ; justify-content: center; align-items: center; height: 100px;}
 #derecho{color: rgb(253, 233, 211); padding: 5px; text-align: center;}
 figure{margin-bottom: 20px;}
+#nombre{color: rgb(253, 233, 211); padding: 5px; text-align: center; font-size: medium;}
+@media(width < 800px){
+    .Encabezado{flex-direction: column; height: 280px; width: 80%;}
+    .enc{margin-bottom: 10px;}
+    h3{font-size: medium; width: 150px; margin-top: 20px;}
+    .Entrevista{flex-direction: column; align-items: center;}
+    .tarjeta{width: 80vw; flex-direction: column; align-items: center; margin-top: 30px;}
+    footer{height: 400px; display: flex; flex-direction: column; justify-content: center;}
+  a{padding: 20px; font-size: medium;}
+  h2{width: 200px; height: 50px; font-size: medium; padding: 5px; margin-bottom: 10px;}
+   }

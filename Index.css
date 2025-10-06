@@ -3,7 +3,7 @@
 h1{display: inline-block; margin: 15px; color: rgb(33, 36, 61);}
 header{display: flex; justify-content: center;align-items: center; background-color: rgb(251, 233, 213); margin-bottom: 20px;;}
 .Encabezado{background-color: rgb(230, 159, 133); width: 80%; height: 60px; margin: auto; display: flex; justify-content: center;}
-.enc{padding: 10px; margin: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger; width: 200px;}
+.enc{padding: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger;}
 .enc:hover{text-decoration: underline; color: rgb(255, 221, 185); transition: all 0.5s;}
 .carousel {position: relative; width: 80%;; margin: auto;overflow: hidden;}
     .carousel img {width: 100%;display: none;}
@@ -14,7 +14,7 @@ header{display: flex; justify-content: center;align-items: center; background-co
 
 #IMG{height: 500px;}
 body{background-color: rgba(255, 245, 210, 0.327);}
-h2{ padding: 15px; background-color: rgb(255, 240, 217); width: 300px; height: 80px; text-align: center; margin: auto; margin-top: 10px; color: rgb(103, 76, 54); margin-bottom: 20px;}
+h2{ padding: 15px; background-color: rgb(255, 240, 217); width: 300px; height: 80px; text-align: center; margin: auto; margin-top: 5px; color: rgb(103, 76, 54); margin-bottom: 20px;}
 .FOTO{width: 200px; height: 200px; padding: 10px; border-radius: 30px; border: 20px solid;}
 .FOTO:hover{filter: brightness(80%); transition: all 0.5s;}
 section{display: flex; justify-content: center;}
@@ -37,4 +37,20 @@ a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
 .Seguir{color: rgb(111, 57, 57);}
 .Iconos{display: flex ; justify-content: center; align-items: center; height: 100px;}
 #derecho{color: rgb(253, 233, 211); padding: 5px;}
+#nombre{color: rgb(253, 233, 211); padding: 5px; text-align: center; font-size: medium;}
+@media(width < 800px){
+  .Encabezado{flex-direction: column; height: 280px; width: 80%;}
+  .enc{margin-bottom: 10px;}
+  .carousel{margin-top: 10px; height: 400px;}
+  #IMG{height: 300px; }
+  section{flex-direction: column; align-items: center;}
+  #Cartel{height: 300px;}
+  .Tarjeta{flex-direction: column; align-items: center; width: 80vw;}
+  #invertida{flex-direction: column; align-items: center; text-align: center;}
+  #Lana{width: 300px; height: 400px; padding: 10px;}
+  p{font-size: medium; padding: 20px;}
+  footer{height: 400px; display: flex; flex-direction: column; justify-content: center;}
+  a{padding: 20px; font-size: medium;}
+  h2{width: 200px; height: 50px; font-size: medium; padding: 5px; margin-bottom: 10px;}
+}
 

@@ -3,7 +3,7 @@
 h1{display: inline-block; margin: 15px; color: rgb(33, 36, 61);}
 header{display: flex; justify-content: center;align-items: center; background-color: rgb(251, 233, 213); margin-bottom: 20px;;}
 .Encabezado{background-color: rgb(230, 159, 133); width: 80%; height: 60px; margin: auto; display: flex; justify-content: center;}
-.enc{padding: 10px; margin: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger; width: 200px;}
+.enc{padding: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger;}
 .enc:hover{text-decoration: underline; color: rgb(255, 221, 185); transition: all 0.5s;}
 body{background-color: rgba(255, 245, 210, 0.327);}
 footer{background-color: rgb(235, 164, 138); padding: 30px;}
@@ -16,10 +16,11 @@ a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
 section{ height: 300px; padding: 30px; margin: 20px;} 
 p{color: rgb(71, 37, 37); font-size: x-large; font-weight: 800;}
 article{display: flex; align-items: center;}
-button{background-color: rgb(125, 53, 45); width: 150px; border: none; border-radius: 10px; height: 40px; color: rgb(242, 240, 224); font-weight: 600;} 
+button{background-color: rgb(125, 53, 45); width: 150px; border: none; border-radius: 10px; height: 80px; color: rgb(242, 240, 224); font-weight: 600;} 
 button:hover{background-color: rgb(182, 121, 84); color: rgb(81, 48, 41); transition: all 0.5s; transform: scale(1.2);}
 .centrar-boton{display: flex; justify-content: center; align-items: center; margin-top: 60px;}
 .pulsante{cursor: pointer; animation-name: pulso; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+#nombre{color: rgb(253, 233, 211); padding: 5px; text-align: center; font-size: medium;}
 @keyframes pulso{
     0%{transform: scale(1);}
     50%{transform: scale(1.1);}
@@ -37,3 +38,15 @@ dialog{position:relative; align-items: center; justify-content: center; width: 6
 dialog::backdrop {
     background-color: rgba(243, 164, 127, 0.3);
 }
+@media(width < 800px){
+    .Encabezado{flex-direction: column; height: 280px; width: 80%;}
+    .enc{margin-bottom: 10px;}
+    footer{height: 400px; display: flex; flex-direction: column; justify-content: center;}
+  a{padding: 20px; font-size: medium;}
+  h2{width: 200px; height: 50px; font-size: medium; padding: 5px; margin-bottom: 10px;}
+    section{height: 400px; padding: 10px; margin: 10px;}
+    p{font-size:larger; line-height: 40px;}
+    dialog{width: 80%; height: 400px;}
+    #close-button{width: 50px; height: 50px; font-size: larger;}
+    .parrafo{margin-top: 80px; font-size: medium; text-align: center;}
+   }

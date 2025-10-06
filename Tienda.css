@@ -3,7 +3,7 @@
 h1{display: inline-block; margin: 15px; color: rgb(33, 36, 61);}
 header{display: flex; justify-content: center;align-items: center; background-color: rgb(251, 233, 213); margin-bottom: 20px;;}
 .Encabezado{background-color: rgb(230, 159, 133); width: 80%; height: 60px; margin: auto; display: flex; justify-content: center;}
-.enc{padding: 10px; margin: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger; width: 200px;}
+.enc{padding: 10px; text-decoration: none; color: rgb(121, 60, 53); font-weight: 700; font-size: larger;}
 .enc:hover{text-decoration: underline; color: rgb(255, 221, 185); transition: all 0.5s;}
 .gif{width: 70%; height: 500px; border: 4px groove rgb(243, 229, 208); display: block; margin: auto; margin-top: 30px;}
 .CD{width: 300px; height: 300px; border: 8px solid rgb(226, 178, 145);}
@@ -27,4 +27,21 @@ a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
 .Seguir{color: rgb(111, 57, 57);}
 .Iconos{display: flex ; justify-content: center; align-items: center; height: 100px;}
 #derecho{color: rgb(253, 233, 211); padding: 5px;}
+#nombre{color: rgb(253, 233, 211); padding: 5px; text-align: center; font-size: medium;}
+@media(width < 800px){
+    .Encabezado{flex-direction: column; height: 280px; width: 80%;}
+    .enc{margin-bottom: 10px;}
+    footer{height: 400px; display: flex; flex-direction: column; justify-content: center}
+    a{padding: 20px; font-size: medium;}
+    .gif{width: 90%; height: 300px;}
+    .Discos{flex-direction: column; gap: 20px;}
+    .prenda{flex-direction: column; gap: 20px;}
+    .accesorios{flex-direction: column; gap: 20px;}
+    .CD{width: 200px; height: 200px;}
+    .Ropa{width: 200px; height: 200px;}
+    .Acc{width: 200px; height: 200px;}
+    p{font-size:medium; line-height: 30px;}
+    .born{margin-left: 50px;}
+   }
+
 
