@@ -33,4 +33,5 @@ figure{margin-bottom: 20px;}
     footer{height: 400px; display: flex; flex-direction: column; justify-content: center;}
   a{padding: 20px; font-size: medium;}
   h2{width: 200px; height: 50px; font-size: medium; padding: 5px; margin-bottom: 10px;}
+  iframe{width: 90%;}
    }

@@ -16,7 +16,7 @@ a:hover{text-decoration: underline; color: antiquewhite; transition: all 0.5s;}
 section{ height: 300px; padding: 30px; margin: 20px;} 
 p{color: rgb(71, 37, 37); font-size: x-large; font-weight: 800;}
 article{display: flex; align-items: center;}
-button{background-color: rgb(125, 53, 45); width: 150px; border: none; border-radius: 10px; height: 80px; color: rgb(242, 240, 224); font-weight: 600;} 
+button{background-color: rgb(111, 45, 38); width: 150px; border: none; border-radius: 10px; height: 70px; color: rgb(242, 240, 224); font-weight: 600;} 
 button:hover{background-color: rgb(182, 121, 84); color: rgb(81, 48, 41); transition: all 0.5s; transform: scale(1.2);}
 .centrar-boton{display: flex; justify-content: center; align-items: center; margin-top: 60px;}
 .pulsante{cursor: pointer; animation-name: pulso; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
@@ -41,7 +41,7 @@ dialog::backdrop {
 @media(width < 800px){
     .Encabezado{flex-direction: column; height: 280px; width: 80%;}
     .enc{margin-bottom: 10px;}
-    footer{height: 400px; display: flex; flex-direction: column; justify-content: center;}
+    footer{height: 500px; display: flex; flex-direction: column; justify-content: center; margin-top: 20px;}
   a{padding: 20px; font-size: medium;}
   h2{width: 200px; height: 50px; font-size: medium; padding: 5px; margin-bottom: 10px;}
     section{height: 400px; padding: 10px; margin: 10px;}
@@ -49,4 +49,6 @@ dialog::backdrop {
     dialog{width: 80%; height: 400px;}
     #close-button{width: 50px; height: 50px; font-size: larger;}
     .parrafo{margin-top: 80px; font-size: medium; text-align: center;}
-   }
+    .centrar-boton{margin-top: 10px;}
+    }
+   
